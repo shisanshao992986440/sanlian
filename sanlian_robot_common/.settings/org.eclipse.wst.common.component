@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="sh_kpi_sh_common">
+        <wb-resource deploy-path="/" source-path="/src/main/resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/java"/>
+        <dependent-module archiveName="sanlian_robot_eureka_server.jar" deploy-path="/" handle="module:/resource/sanlian_robot_eureka_server/sanlian_robot_eureka_server">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="sanlian_robot_eureka_client.jar" deploy-path="/" handle="module:/resource/sanlian_robot_eureka_client/sanlian_robot_eureka_client">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
